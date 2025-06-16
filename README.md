@@ -31,13 +31,13 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 
 Below are images of Windows 11 running on GitHub Codespaces:
 
-![Image](https://github.com/user-attachments/assets/561bb50d-eee8-46cb-9614-8d5a16a9296c)
+![image](https://github.com/user-attachments/assets/561bb50d-eee8-46cb-9614-8d5a16a9296c)
 
-![Image](https://github.com/user-attachments/assets/3ec6ea7f-8664-4449-9495-c748ea29aef5)
+![image](https://github.com/user-attachments/assets/3ec6ea7f-8664-4449-9495-c748ea29aef5)
 
-![Image](https://github.com/user-attachments/assets/3973420c-8732-4740-b280-ecd9aa808f3d)
+![image](https://github.com/user-attachments/assets/3973420c-8732-4740-b280-ecd9aa808f3d)
 
-![Image](https://github.com/user-attachments/assets/e006bcd4-a265-417e-b535-20a1d7036dfc)
+![image](https://github.com/user-attachments/assets/e006bcd4-a265-417e-b535-20a1d7036dfc)
 
 ## Usage
 
@@ -91,7 +91,7 @@ Click on the button below:
     }
     ```
 6) When it says `"state": "Available"` — you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
-    ![Image](https://github.com/user-attachments/assets/42406f1f-75cf-4cff-b1ad-66413ba93d67)
+    ![image](https://github.com/user-attachments/assets/d629ac04-2507-4e09-a3be-073f47c2674a)
 
 > [!NOTE]
 > See [Commands](#commands) for a full list of available commands.
