@@ -170,7 +170,7 @@ Below are the different usage hours for your GitHub Codespaces:
 
 > [!NOTE]
 > If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 usage hours per month). <br><br>
-> After this, you will need to provide your payment details to continue using GitHub Codespaces.
+> If you would like to use more than 60 usage hours per month, you will need to provide your payment details to continue using GitHub Codespaces.
 
 > [!TIP]
 > GitHub has a formula to calculate your core hours. <br>
