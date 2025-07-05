@@ -23,10 +23,11 @@ chmod +x /usr/local/bin/rebuild
 chmod +x /usr/local/bin/remove
 chmod +x /usr/local/bin/kill
 
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.001 --output-document /tmp/$REPOSITORY/windows/data.7z.001
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.002 --output-document /tmp/$REPOSITORY/windows/data.7z.002
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.003 --output-document /tmp/$REPOSITORY/windows/data.7z.003
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.004 --output-document /tmp/$REPOSITORY/windows/data.7z.004
+wget https://github.com/ItzLevvie/artifacts/releases/download/27881-1/data.7z.001 --output-document /tmp/$REPOSITORY/windows/data.7z.001
+wget https://github.com/ItzLevvie/artifacts/releases/download/27881-1/data.7z.002 --output-document /tmp/$REPOSITORY/windows/data.7z.002
+wget https://github.com/ItzLevvie/artifacts/releases/download/27881-1/data.7z.003 --output-document /tmp/$REPOSITORY/windows/data.7z.003
+wget https://github.com/ItzLevvie/artifacts/releases/download/27881-1/data.7z.004 --output-document /tmp/$REPOSITORY/windows/data.7z.004
+wget https://github.com/ItzLevvie/artifacts/releases/download/27881-1/data.7z.005 --output-document /tmp/$REPOSITORY/windows/data.7z.005
 
 7z x /tmp/$REPOSITORY/windows/data.7z.001 -o/tmp/$REPOSITORY/windows
 rm --force /tmp/$REPOSITORY/windows/data.7z.00*
@@ -48,6 +49,7 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "      RAM_SIZE: $(free --gibi | grep 'Mem:' | awk '{print $7}')G"
     echo "      DISK_SIZE: $(df --human-readable --block-size G /workspaces | grep '/workspaces' | awk '{print $4}')"
     echo "      DISK2_SIZE: $(df --human-readable --block-size G /tmp | grep '/tmp' | awk '{print $4}')"
+    echo "      ARGUMENTS: \"-cpu host,arch_capabilities=off\""
     echo "      TPM: Y"
     echo "      RAM_CHECK: N"
     echo "      MTU: 1486"
