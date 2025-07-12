@@ -373,3 +373,5 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 - `-mmt$(nproc --all)` forces 7-Zip to use all cores.
 - `-mx9` forces 7-Zip to use ultra compression.
 - `-v1g` forces 7-Zip to split the `data.7z` file into 1 GB chunks.
+- `data.7z` forces 7-Zip to output all 1 GB chunks with the `data.7z` file name.
+- `data.vhdx` forces 7-Zip to use the `data.vhdx` file as an input.
