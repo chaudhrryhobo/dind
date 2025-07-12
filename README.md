@@ -128,7 +128,7 @@ This repository was inspired by many different YouTube videos:
 7) [Windows in a Github Codespace Dev Container](https://www.youtube.com/watch?v=o0c9DexUVpI) by [HashiQube DevOps Lab](https://www.youtube.com/@hashiqube)
 
 This repository was also inspired by many different websites:
-1) [Run Windows 10 for free in GitHub codespaces using QEMU](https://www.aih.app/2023/02/04/run-windows-10-for-free-in-github-codespaces-using-qemu/)
+1) [Run Windows 10 for free in GitHub codespaces using QEMU](https://www.aih.app/2023/02/04/run-windows-10-for-free-in-github-codespaces-using-qemu/) by [Shreejal Maharjan](https://github.com/shreejalmaharjan-27)
 
 ---
 
