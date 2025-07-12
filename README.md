@@ -125,6 +125,7 @@ This repository was inspired by many different YouTube videos:
 4) [[PATCHED] How to Create Windows QEMU VM from Codespaces - Free Windows VPS from Codespace](https://www.youtube.com/watch?v=-kzua2uEMC8) by [Paddi's Tech Stuff](https://www.youtube.com/@PaddisTechStuff)
 5) [How to Run Windows 10 Cloud PC on your Device using Github Codespace [New Method] [2025].](https://www.youtube.com/watch?v=Sg8m_hyNioI) by [JoyZoneTech](https://www.youtube.com/@JoyZoneTech)
 6) [How to Create a Free Windows 10 RDP on GitHub](https://www.youtube.com/watch?v=Pc9FgSvnI90) by [TechXploitz](https://www.youtube.com/@techxploitz)
+7) [Windows in a Github Codespace Dev Container](https://www.youtube.com/watch?v=o0c9DexUVpI) by [HashiQube DevOps Lab](https://www.youtube.com/@hashiqube)
 
 This repository was also inspired by many different websites:
 1) [Run Windows 10 for free in GitHub codespaces using QEMU](https://www.aih.app/2023/02/04/run-windows-10-for-free-in-github-codespaces-using-qemu/)
