@@ -52,6 +52,7 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "      ARGUMENTS: \"-cpu host,arch_capabilities=off\""
     echo "      BOOT_MODE: windows"
     echo "      TPM: Y"
+    echo "      KVM: Y"
     echo "      RAM_CHECK: N"
     echo "      MTU: 1486"
     echo "      DISPLAY: web"
