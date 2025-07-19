@@ -228,7 +228,7 @@ Ngrok requires your payment details to allow TCP connections which is required f
 #### Requirements
 
 - Hyper-V with Secure Boot, Trusted Platform Module (TPM), and Network Adapter (Ethernet) disabled.
-- `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27881.iso` from [Windows Insider Preview — ISOs](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) is mounted as a DVD Drive on Hyper-V.
+- `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27902.iso` from [Windows Insider Preview — ISOs](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) is mounted as a DVD Drive on Hyper-V.
 - `virtio-win-1.9.47.iso` from [Red Hat Enterprise Linux 10 — AppStream](https://github.com/ItzLevvie/artifacts/releases/latest/download/virtio-win.iso) is mounted as a DVD Drive on Hyper-V.
 
 ---
@@ -245,7 +245,7 @@ Create three registry entries at `HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig`:
 - `BypassRAMCheck` with a value of `1`
 
 > [!IMPORTANT]
-> These registry entries are read by Windows 11 Setup from `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27881.iso\sources\winsetup.dll` which allows you to bypass the system requirements for Windows 11.
+> These registry entries are read by Windows 11 Setup from `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27902.iso\sources\winsetup.dll` which allows you to bypass the system requirements for Windows 11.
 
 ---
 
