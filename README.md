@@ -216,7 +216,7 @@ However, you can extend this inactivity timeout to a maximum of 240 minutes (4 h
 
 Tailscale has the lowest latency because all connections are peer-to-peer (P2P).
 
-Tailscale has more features than its competitors.
+Tailscale has [more features](https://tailscale.com/compare) than its competitors.
 
 Ngrok uses a tunnel server which increases the latency for your Remote Desktop Protocol (RDP) connections.
 
