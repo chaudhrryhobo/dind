@@ -368,7 +368,7 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 
 ---
 
-12\) You can upload your VHDX file to GitHub Releases
+12\) You can upload your VHDX file to GitHub Releases.
 
 `7z a -mmt$(nproc --all) -mx9 -v1g data.7z data.vhdx`
 - `-mmt$(nproc --all)` forces 7-Zip to use all cores.
