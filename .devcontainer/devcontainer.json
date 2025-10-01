@@ -6,8 +6,8 @@
   },
   "ghcr.io/devcontainers/features/ssh:1": {
     "version": "latest"
-  }
-}
+ }
+},
     "build": {
         "dockerfile": "Dockerfile"
     },
