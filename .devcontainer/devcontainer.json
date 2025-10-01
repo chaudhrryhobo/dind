@@ -1,5 +1,13 @@
 {
     "name": "Windows 11 (Canary) + Tailscale (unstable)",
+    "features": {
+  "ghcr.io/devcontainers-contrib/features/tailscale:1": {
+    "version": "latest"
+  },
+  "ghcr.io/devcontainers/features/ssh:1": {
+    "version": "latest"
+  }
+}
     "build": {
         "dockerfile": "Dockerfile"
     },
